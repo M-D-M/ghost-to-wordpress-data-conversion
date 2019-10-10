@@ -2,8 +2,6 @@
     [string]$jsonFile
 )
 
-# $jsonFile = "C:\Downloads\ninalog.ghost.2019-10-07-22-42-26.json"
-
 function convertJSON() {
     $json_data = Get-Content -Encoding UTF8 -Raw -Path $jsonFile | ConvertFrom-Json
 
