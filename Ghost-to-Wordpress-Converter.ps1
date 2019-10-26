@@ -37,5 +37,5 @@ if (($jsonFile -ne "") -and (Test-Path $jsonFile)) {
     convertJSON
 } 
 else {
-    write-host "Usage: <script name> <json file path>"
+    write-host "Usage: <script name> -jsonFile ""<json file path>"""
 }
